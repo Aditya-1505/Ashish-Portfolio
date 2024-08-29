@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg1.jpeg") ;
   background-size: cover;
   left: 0;
   right: 0;
@@ -564,13 +564,24 @@ section .container {
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 13px;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+
+.resume .resume-item h6 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 7px 18px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 
 .resume .resume-item ul {
   padding-left: 20px;
